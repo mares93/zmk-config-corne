@@ -1,48 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE:
-  - {t: TAB, h: Ctl+Sft+LALT}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '-'
-  - LSHIFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LEFT CONTROL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LEFT ALT
-  - LEFT GUI
-  - NAV
-  - BSPC
-  - SPACE
-  - SYMBOLS
-  - ENTER
+  BASE: [ESC, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, LEFT ALT, LEFT SHIFT,
+    SYMBOLS, ENTER, SPACE, NAV, RIGHT ALT]
   SYMBOLS:
   - {t: ▽, type: trans}
   - '1'
@@ -81,10 +40,10 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV:
   - Gui+Ctl+TAB
@@ -124,10 +83,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Gui+SPACE
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   EXT:
   - {t: ▽, type: trans}
