@@ -27,10 +27,10 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
-  - '~'
-  - '|'
+  - F10
+  - F11
+  - F12
+  - F5
   - '='
   - +
   - '['
@@ -46,48 +46,48 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV:
-  - Gui+Ctl+TAB
-  - {t: ▽, type: trans}
-  - Gui+[
-  - Sft+TAB
   - TAB
-  - Gui+]
-  - Alt+LEFT
-  - Alt+DOWN
-  - Alt+UP
-  - Alt+RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ESC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SCROLL DOWN
-  - SCROLL UP
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - BACKSPACE
+  - ^
+  - '-'
+  - '='
+  - '`'
+  - '['
+  - ']'
+  - '-'
+  - '='
   - UP
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ']'
+  - \
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - PG DN
   - PG UP
   - END
-  - Gui+LEFT
-  - Gui+DOWN
-  - Gui+UP
-  - Gui+RIGHT
+  - _
+  - LEFT
+  - DOWN
+  - RIGHT
+  - '|'
+  - '~'
+  - LWIN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+Gui+SPACE
+  - ENTER
   - {type: held}
-  - {t: ▽, type: trans}
+  - RIGHT ALT
   EXT:
   - {t: ▽, type: trans}
   - F1
