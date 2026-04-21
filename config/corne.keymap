@@ -94,10 +94,10 @@
         nav_layer {
             label = "NAV";
             bindings = <
-&kp TAB    &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR        &kp PERCENT          &kp CARET       &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&kp CARET  &kp MINUS        &kp EQUAL    &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp MINUS       &kp EQUAL      &kp UP         &kp RIGHT_BRACKET     &kp BACKSLASH          &kp GRAVE
-&trans     &trans           &kp HOME     &kp PG_DN  &kp PG_UP         &kp END              &kp UNDERSCORE  &kp LEFT       &kp DOWN       &kp RIGHT             &kp PIPE               &kp TILDE
-                                         &kp LWIN   &trans            &trans               &kp ENTER       &trans         &kp RIGHT_ALT
+&kp TAB    &kp EXCLAMATION  &kp AT_SIGN  &kp HASH        &kp DOLLAR        &kp PERCENT          &kp CARET       &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&kp CARET  &kp MINUS        &kp EQUAL    &kp GRAVE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp MINUS       &kp EQUAL      &kp UP         &kp RIGHT_BRACKET     &kp BACKSLASH          &kp GRAVE
+&trans     &trans           &kp HOME     &kp PG_DN       &kp PG_UP         &kp END              &kp UNDERSCORE  &kp LEFT       &kp DOWN       &kp RIGHT             &kp PIPE               &kp TILDE
+                                         &kp LEFT_SHIFT  &trans            &trans               &kp ENTER       &trans         &kp RIGHT_ALT
             >;
         };
 
