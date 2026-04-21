@@ -82,7 +82,7 @@ layers:
   - RIGHT
   - '|'
   - '~'
-  - LWIN
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
