@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: [ESC, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, LEFT ALT, LEFT SHIFT,
-    SYMBOLS, ENTER, SPACE, NAV, RIGHT ALT]
-  SYMBOLS:
+  Principal: [ESC, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, RIGHT SHIFT, LEFT
+      SHIFT, Layer 2, ENTER, SPACE, Layer 3, RIGHT ALT]
+  Layer 2:
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -45,7 +45,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NAV:
+  Layer 3:
   - TAB
   - '!'
   - '@'
@@ -70,7 +70,7 @@ layers:
   - ']'
   - \
   - '`'
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - HOME
   - PG DN
